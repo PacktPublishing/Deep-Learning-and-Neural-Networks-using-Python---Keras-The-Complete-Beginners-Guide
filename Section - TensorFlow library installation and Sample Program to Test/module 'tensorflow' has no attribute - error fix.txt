@@ -1,0 +1,13 @@
+"module 'tensorflow' has no attribute" error fix
+If you are getting "module 'tensorflow' has no attribute" error while running the tensorflow testing code, please use 'tf.compat.v1' instead of 'tf' in the function calls.
+
+
+
+for eg:
+
+tf.placeholder(tf.float32)
+
+will change to
+
+tf.compat.v1.placeholder(tf.float32)
+
