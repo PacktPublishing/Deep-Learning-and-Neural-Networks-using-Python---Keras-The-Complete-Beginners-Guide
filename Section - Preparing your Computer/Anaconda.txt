@@ -1,0 +1,7 @@
+Download the latest version of Anaconda from the following link:
+
+https://www.anaconda.com/products/individual
+
+
+
+
