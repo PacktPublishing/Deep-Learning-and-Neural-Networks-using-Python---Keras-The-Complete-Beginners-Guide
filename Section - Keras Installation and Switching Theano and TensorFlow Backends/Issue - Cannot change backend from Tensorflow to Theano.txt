@@ -1,0 +1,6 @@
+Issue : Cannot change backend from Tensorflow to Theano
+Please note that Theano is no-longer being actively developed and TensorFlow is now the default. (https://groups.google.com/g/theano-users/c/7Poq8BZutbY?pli=1)
+
+So even if we try to change it in config, the backend will still remain as tensorflow.
+
+Since we are using keras and tensorflow in this course, this will not be a problem for us.
